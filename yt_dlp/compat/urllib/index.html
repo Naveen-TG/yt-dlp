@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Telegram Bot Mini App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      color: #333;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      padding-bottom: 30px;
+    }
+    h1 {
+      color: #0057ff;
+    }
+    .app-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .app-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 280px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .app-card:hover {
+      transform: scale(1.03);
+    }
+    a {
+      text-decoration: none;
+      color: white;
+      background-color: #007bff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+    a:hover {
+      background-color: #0056b3;
+    }
+    #help {
+      max-width: 800px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Telegram Bot Mini App</h1>
+    <p>Explore integrated AI apps and get help using the bot</p>
+  </header>
+
+  <div class="app-container">
+    <div class="app-card">
+      <h2>ChatGPT</h2>
+      <p>Access OpenAI's ChatGPT platform.</p>
+      <a href="https://openai.com/index/chatgpt/" target="_blank">Open ChatGPT</a>
+    </div>
+
+    <div class="app-card">
+      <h2>DeepSeek</h2>
+      <p>Explore AI answers with DeepSeek Chat.</p>
+      <a href="https://chat.deepseek.com/" target="_blank">Open DeepSeek</a>
+    </div>
+
+    <div class="app-card">
+      <h2>Gemini</h2>
+      <p>Try Google's Gemini AI assistant.</p>
+      <a href="https://www.google.com/aclk?sa=L&ai=DChsSEwjc5MmtnoKNAxW4qWYCHSBSH9MYACICCAEQBBoCc20&co=1&ase=2&gclid=Cj0KCQjwt8zABhDKARIsAHXuD7Z8aoZdbI5GNSHA-ojfWU0Ad8HBCks9ynAb5niLio2y9Kl0dRCJSbMaAmNaEALw_wcB" target="_blank">Open Gemini</a>
+    </div>
+  </div>
+
+  <div id="help">
+    <h2>Help</h2>
+    <p>This mini app connects you to different AI tools through Telegram. Use the bot commands below:</p>
+    <ul>
+      <li><strong>/chatgpt</strong> - Ask anything via ChatGPT</li>
+      <li><strong>/deepseek</strong> - Get answers from DeepSeek</li>
+      <li><strong>/gemini</strong> - Chat with Google's Gemini</li>
+      <li><strong>/help</strong> - Display this help menu</li>
+    </ul>
+    <p>Need further assistance? Contact the bot admin via Telegram.</p>
+  </div>
+</body>
+</html>
